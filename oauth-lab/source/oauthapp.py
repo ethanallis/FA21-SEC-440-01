@@ -1,3 +1,9 @@
+"""
+Author: Ethan Allis
+Class: SEC-440-01
+Assignment: Project 7 Federated Identity Lab 
+"""
+
 from requests_oauthlib import OAuth2Session
 from flask import Flask, request, redirect, session, url_for
 from flask.json import jsonify
